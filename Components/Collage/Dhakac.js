@@ -34,7 +34,7 @@ export default function SchoolsList() {
 
   //
   useEffect(() => {
-    fetch('https://schoolghor.vercel.app/alldcregi', {
+    fetch('https://schoolghorserver.vercel.app/alldcregi', {
       method: 'GET',
     })
       .then((res) => res.json())

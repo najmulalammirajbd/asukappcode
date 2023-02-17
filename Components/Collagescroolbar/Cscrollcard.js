@@ -38,27 +38,41 @@ export default function Cscrollcard() {
                                         name="ঢাকার কলেজ"
                                     />
                                     </Pressable>
+                                    <Pressable onPress={() => {navigation.navigate('Chattogramc')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="চট্রগ্রামের কলেজ"
                                     />
+                                    </Pressable>
+                                    <Pressable onPress={() => {navigation.navigate('Sylhetc')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="সিলেটের কলেজ"
                                     />
+                                    </Pressable>
+                                    <Pressable onPress={() => {navigation.navigate('Khulnac')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="খুলনার কলেজ"
                                     />
+                                    </Pressable>
+                                    <Pressable onPress={() => {navigation.navigate('Barishalc')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="বরিশালের কলেজ"
                                     />
+                                    </Pressable>
+                                    <Pressable onPress={() => {navigation.navigate('Rajshahic')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="রাজশাহীর কলেজ"
                                     />
+                                    </Pressable>
+                                    <Pressable onPress={() => {navigation.navigate('Rangpurc')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="রংপুরের কলেজ"
                                     />
+                                    </Pressable>
+                                    <Pressable onPress={() => {navigation.navigate('Mymensinghc')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="ময়মনসিংহের কলেজ"
                                     />
+                                    </Pressable>
                                 </ScrollView>
                             </View>
                             

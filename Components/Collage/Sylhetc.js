@@ -20,7 +20,7 @@ import {
   import { Ionicons } from '@expo/vector-icons';
   import FilterModal from '../SchoolsList/FilterModal'
   import Imj from '../Imj/Imj'
-import { Card } from 'react-native-shadow-cards'
+  import { Card } from 'react-native-shadow-cards'
   
   export default function SchoolsList() {
     const [IsVisible, setIsVisible] = useState(false)
@@ -34,7 +34,7 @@ import { Card } from 'react-native-shadow-cards'
   
     //
     useEffect(() => {
-      fetch('https://schoolghorserver.vercel.app/alldsregi', {
+      fetch('https://schoolghorserver.vercel.app/allscregi', {
         method: 'GET',
       })
         .then((res) => res.json())

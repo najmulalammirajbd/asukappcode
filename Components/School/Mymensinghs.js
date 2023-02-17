@@ -34,7 +34,7 @@ import { Card } from 'react-native-shadow-cards'
   
     //
     useEffect(() => {
-      fetch('https://schoolghorserver.vercel.app/alldsregi', {
+      fetch('https://schoolghorserver.vercel.app/allmsregi', {
         method: 'GET',
       })
         .then((res) => res.json())
