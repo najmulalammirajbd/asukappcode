@@ -46,7 +46,7 @@ export default function About() {
         <Text
           style={{ color: '#1daebb', fontSize: 17 }}
           onPress={() =>
-            Linking.openURL("https://www.facebook.com/bdschoolghor")
+            Linking.openURL("https://www.facebook.com/bdschoolghorofficial")
           }
         >
           <FontAwesome5 name="facebook-square" size={20}></FontAwesome5>
@@ -54,7 +54,7 @@ export default function About() {
         <Text
           style={{ color: '#1daebb', fontSize: 17, marginLeft: 5 }}
           onPress={() =>
-            Linking.openURL("https://www.youtube.com/@bdschoolghor")
+            Linking.openURL("https://www.youtube.com/@bdschoolghorofficial")
           }
         >
           <FontAwesome5 name="youtube-square" size={20}></FontAwesome5>

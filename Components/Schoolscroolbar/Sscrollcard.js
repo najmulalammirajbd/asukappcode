@@ -48,7 +48,7 @@ export default function Sscrollcard() {
                                         name="সিলেটের স্কুল"
                                     />
                                     </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Khaulnas')}}>
+                                    <Pressable onPress={() => {navigation.navigate('Khulnas')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="খুলনার স্কুল"
                                     />
