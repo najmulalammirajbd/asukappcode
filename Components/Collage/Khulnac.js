@@ -19,7 +19,7 @@ import {
   import SchoolDetailsModal from '../SchoolsList/SchoolDetailsModal'
   import { Ionicons } from '@expo/vector-icons';
   import FilterModal from '../SchoolsList/FilterModal'
-  import Imj from '../Imj/Imj'
+  import Gif from '../Gif/Gif'
   import { Card } from 'react-native-shadow-cards'
   
   export default function SchoolsList() {
@@ -104,7 +104,7 @@ import {
         <View>
           {loading ? (
             
-            <Imj visible={loading} />
+            <Gif visible={loading} />
           ) : (
             <>
               <FlatList

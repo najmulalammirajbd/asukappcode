@@ -25,7 +25,7 @@ export default function FilterModal({
         <View style={styles.card}>
           {/* close button */}
           <View style={styles.cardHeader}>
-            <Text style={styles.cardHeaderTitle}>সার্চ করুন</Text>
+            <Text style={styles.cardHeaderTitle}>খুঁজুন নাম অথবা ঠিকানা দিয়ে</Text>
             <TouchableOpacity
               onPress={() => {
                 setIsVisible(false)
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
     borderRadius: 0,
   },
   cardHeaderTitle: {
-    fontSize: 16,
+    fontSize: 12,
     fontWeight: '500',
   },
   cardHeader: {

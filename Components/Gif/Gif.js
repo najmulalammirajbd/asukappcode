@@ -1,10 +1,8 @@
 import { View, Text, Linking , Image } from "react-native";
-import Navbar from "../Navbar/Navbar";
 import { useNavigation } from "@react-navigation/native";
-import { FontAwesome5 } from "@expo/vector-icons";
-import Service from '../Service/Service'
 
-export default function About() {
+
+export default function Gif() {
   const navigation = useNavigation();
   return (
     <>

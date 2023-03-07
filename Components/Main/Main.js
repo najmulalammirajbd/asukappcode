@@ -1,10 +1,7 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import Baner from '../Baner/Baner'
 import Navbarmain from '../Navbarmain/Navbarmain'
-import Service from '../Service/Service'
-import Topschool from '../Topschool/Topschool'
-import Topcollage from '../Topcollage/Topcollage'
-import Aboutmain from '../Aboutmain/Aboutmain'
+import About from '../About/About'
 import Sscrollcard from '../Schoolscroolbar/Sscrollcard'
 import Cscrollcard from '../Collagescroolbar/Cscrollcard'
 
@@ -16,7 +13,7 @@ export default function App() {
         <Baner />
         <Sscrollcard/>
         <Cscrollcard/>
-        <Aboutmain/>
+        <About/>
         </View>
     </ScrollView>
   )
