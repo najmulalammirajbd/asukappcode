@@ -34,7 +34,7 @@ export default function FilterModal({
                 alignSelf: 'flex-end',
               }}
             >
-              <AntDesign name="closecircle" size={24} color="#1daebb" />
+              <AntDesign name="closecircle" size={24} color="#dddddd" />
             </TouchableOpacity>
           </View>
           {/* list */}
@@ -107,7 +107,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   filterButton: {
-    backgroundColor: '#1daebb',
+    backgroundColor: '#6c6c6c',
     paddingHorizontal: 15,
     paddingVertical: 10,
     marginHorizontal: 10,

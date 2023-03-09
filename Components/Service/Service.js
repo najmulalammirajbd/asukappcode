@@ -38,7 +38,7 @@ export default function Artists() {
             }}
             source={require('../../assets/loco.png')}
           />
-          <Text style={{ color: 'black' , fontSize:9 }}>রেজিস্ট্রেশন করুন</Text>
+          <Text style={{ color: 'black' , fontSize:9 }}>প্রতিষ্ঠান রেজিস্ট্রেশন করুন</Text>
         </Pressable>
         </Card>
       </View>

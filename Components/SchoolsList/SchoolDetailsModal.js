@@ -27,7 +27,7 @@ export default function SchoolDetailsModal({ IsVisible, setIsVisible, data }) {
             alignSelf: 'flex-end',
           }}
         >
-          <AntDesign name="closecircle" size={24} color="#1daebb" />
+          <AntDesign name="closecircle" size={24} color="#dddddd" />
         </TouchableOpacity>
         {/* list */}
         <ScrollView showsVerticalScrollIndicator={false}>
@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
   },
   title: {
     color: '#000000',
-    fontSize: 18,
+    fontSize: 13,
   },
   text: {
     color: '#262323cf',
