@@ -13,10 +13,10 @@ export default function Header({ backBtn }) {
             navigation.goBack()
           }}
         >
-          <Card style={{width:33 ,  marginLeft:10 , height:56 ,  shadowColor:0  , borderWidth: 0.5, borderColor: '#dddddd' ,  flexDirection: 'row',alignItems: 'center', justifyContent : 'center'  }}>
+          <Card style={{width:33 ,  marginLeft:10 , height:56 ,  shadowColor:0  , borderWidth: 0.5, borderColor: '#dddddd' ,  flexDirection: 'row',alignItems: 'center', justifyContent : 'center', borderRadius: 2,  }}>
           <AntDesign
             name="left"
-            size={20}
+            size={25}
             color="#dddddd"
           />
           </Card>

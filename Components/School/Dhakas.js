@@ -83,12 +83,16 @@ import { Card } from 'react-native-shadow-cards'
         />
   
         {/* Status Bar */}
-        <StatusBar />
-        <View style={styles.searchInputContainer}>
         <Header backBtn={true} />
+        <StatusBar />
+        
+        <View style={styles.searchInputContainer}>
+        
+        
           <TextInput
+          placeholder=" খুঁজুন"
+          placeholderTextColor="#666"
             onChangeText={(text) => searchFilter(text)}
-            placeholder="খুঁজুন"
             style={styles.searchInput}
           />
           <TouchableOpacity
@@ -99,8 +103,10 @@ import { Card } from 'react-native-shadow-cards'
           >
             <Ionicons name="filter" size={26} color="#1daebb" />
           </TouchableOpacity>
+          
           {/* content */}
         </View>
+        
         <View>
           {loading ? (
             
@@ -171,25 +177,37 @@ import { Card } from 'react-native-shadow-cards'
     searchInputContainer: {
       flexDirection: 'row',
       position: 'relative',
+      flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'white',
+    borderRadius: 2,
+    paddingHorizontal: 6,
+    paddingVertical: 8,
+    marginLeft: 10,
+    marginRight:10 ,
+    borderWidth: 0.5, 
+    borderColor: '#dddddd' ,
+    paddingBottom:12 , 
+    paddingTop: 12
+
     },
     searchInput: {
-      paddingVertical: 10,
-      paddingHorizontal: 10,
-      width: rw(40),
-      // borderBottomWidth:0.5,
-      // borderBottomColor:'#1daebb',
-      backgroundColor: '#fff',
-      marginTop:10,
+      flex: 1,
+    color: '#333',
+    fontSize: 15,
+
     },
     searchFilterButton: {
-      backgroundColor: 'white',
-      width: rw(20),
+      width: rw(15),
       flexDirection: 'row',
       justifyContent: 'center',
       alignItems: 'center',
       // borderLeftWidth:0.7,
       // borderLeftColor:'#1daebb',
-      marginTop:10
+      marginLeft:7,
+      borderLeftColor:'#dddddd',
+      borderLeftWidth : 0.5 ,
+      paddingLeft: 5
     },
     searchFilterText: {
       fontSize: 15,

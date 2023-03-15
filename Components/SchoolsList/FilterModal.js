@@ -48,7 +48,7 @@ export default function FilterModal({
               style={[
                 styles.filterButton,
                 value === 'ina' && {
-                  opacity: 0.5,
+                  opacity: 0.2,
                 },
               ]}
             >
@@ -107,17 +107,19 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   filterButton: {
-    backgroundColor: '#6c6c6c',
+    backgroundColor: 'white',
     paddingHorizontal: 15,
     paddingVertical: 10,
     marginHorizontal: 10,
     marginVertical: 10,
     width: rw(35),
     alignItems: 'center',
-    borderRadius: 3,
+    borderRadius: 2,
+    borderWidth: 0.5, 
+    borderColor: '#dddddd' ,
   },
   filterButtonText: {
-    color: 'white',
+    color: 'black',
     fontWeight: '300',
     fontSize: 18,
   },
