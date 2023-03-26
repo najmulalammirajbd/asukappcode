@@ -34,7 +34,7 @@ import { Card } from 'react-native-shadow-cards'
   
     //
     useEffect(() => {
-      fetch('https://schoolghorserver.vercel.app/alldsregi', {
+      fetch('https://asserver.vercel.app/asb', {
         method: 'GET',
       })
         .then((res) => res.json())
@@ -138,10 +138,10 @@ import { Card } from 'react-native-shadow-cards'
                       />
                       <View>
                         <Text numberOfLines={2} style={styles.name}>
-                          নাম:{item?.item?.ina}
+                          বিষয়ঃ{item?.item?.ina}
                         </Text>
                         <Text numberOfLines={3} style={styles.address}>
-                          ঠিকানা:{item.item.iad}
+                          লেভেল নংঃ {item.item.iad}
                         </Text>
                       </View>
                     </TouchableOpacity>
@@ -157,7 +157,7 @@ import { Card } from 'react-native-shadow-cards'
                     paddingVertical: 25,
                   }}
                 >
-                  কোন প্রতিষ্ঠান পাওয়া যায়নি!
+                  কোন কিছু পাওয়া যায়নি!
                 </Text>
               )}
             </>

@@ -28,21 +28,12 @@ export default function About() {
           marginBottom:5
         }}
       >
-        স্কুল ঘর বাংলাদেশের শিক্ষা-প্রতিষ্ঠানের তথ্য সংক্রান্ত অ্যাপ । যেখানে আপনি ঘরে বসে শিক্ষা-প্রতিষ্ঠানের তথ্য ,
-        যেমন : ভর্তির তথ্য , মাসিক ফি , সেশন ফি , প্রতিষ্ঠানের অবস্থান ইত্যাদি জানতে পারবেন । 
+        আশ শাজারাহ আরবি শেখার একটি অ্যাপ । কোন ভিডিও কোর্সের অ্যাপ নয় । যে কেউ বিভিন্ন লেভেল সম্পন্ন করলে 
+        হয়ে উঠবে আরবিতে দক্ষ । আরবিতে সুদক্ষ ও অভিজ্ঞতাসম্পন্ন শিক্ষকদের দ্বারা সম্পাদিত হয়ে থাকে
+        আমাদের লেভেলগুলো । যুক্তরাজ্য ও বাংলাদেশ থেকে পরিচালিত হয়ে থাকে উক্ত অ্যাপটি ।
       </Text>
       <Service />
-      <Text
-        style={{
-          color: 'black',
-          fontSize: 9,
-          marginTop: 5,
-          textAlign: "center",
-        }}
-      >
-        স্কুল ঘরকে অনুসরণ করুন
-      </Text>
-      <View style={{ flexDirection: "row", marginTop: 7, marginBottom: 1 }}>
+      {/* <View style={{ flexDirection: "row", marginTop: 7, marginBottom: 1 }}>
         <Text
           style={{ color: 'grey', fontSize: 17 }}
           onPress={() =>
@@ -59,8 +50,8 @@ export default function About() {
         >
           <FontAwesome5 name="youtube-square" size={20}></FontAwesome5>
         </Text>
-      </View>
-      <Text
+      </View> */}
+      {/* <Text
         style={{
           color: 'black',
           fontSize: 9,
@@ -76,19 +67,67 @@ export default function About() {
           marginTop: 1,
           textAlign: "center",
         }}>
-        schoolghor.info@gmail.com</Text>
-      <Text
+        schoolghor.info@gmail.com</Text> */}
+      <View style={{flexDirection:'row' , marginTop: 15}}>
+      <Text onPress={() => {navigation.navigate('Apprul')}}
         style={{
           color: 'black',
           fontSize: 9,
           marginTop: -0,
           textAlign: "center",
-          marginBottom:2
+          marginBottom:2,
+          borderWidth: 0.5, 
+          borderColor: '#dddddd' ,
+          paddingHorizontal : 10,
+          paddingVertical: 5
         }}
       >
-        ©SCHOOL GHOR
+        অ্যাপ ব্যাবহারের নিয়মাবলি
       </Text>
-      
+      <Text onPress={() => {navigation.navigate('Refund')}}
+        style={{
+          color: 'black',
+          fontSize: 9,
+          marginTop: -0,
+          textAlign: "center",
+          marginBottom:2 ,
+          marginLeft: 10 ,
+          borderWidth: 0.5, 
+          borderColor: '#dddddd' ,
+          paddingHorizontal : 10,
+          paddingVertical: 5
+        }}
+      >
+        রিফান্ড পলিসি
+      </Text>
+      <Text onPress={() => {navigation.navigate('Pekege')}}
+        style={{
+          color: 'black',
+          fontSize: 9,
+          marginTop: -0,
+          textAlign: "center",
+          marginBottom:2 ,
+          marginLeft: 10,
+          borderWidth: 0.5, 
+          borderColor: '#dddddd' ,
+          paddingHorizontal : 10,
+          paddingVertical: 5
+        }}
+      >
+        প্যাকেজ
+      </Text>
+      </View>
+      <Text
+        style={{
+          color: 'black',
+          fontSize: 9,
+          marginTop: 5,
+          textAlign: "center",
+          marginBottom:5
+        }}
+      >
+        © Ash Shajarah
+      </Text>
     </View>
     </>
   );

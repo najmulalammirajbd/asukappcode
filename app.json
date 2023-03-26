@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "SCHOOL GHOR",
-    "version": "0.0.1",
+    "name": "ASH SHAJARAH",
+    "version": "0.0.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -10,6 +10,8 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "package": "com.ashshajarah",
+    "versionCode": 1,
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -24,16 +26,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.bdschoolghor",
-      "versionCode": 7
+      "package": "com.najmulalammiraj.ashshajarah"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "da13c9bd-93df-4528-9cfa-b234a3a69f8d"
+        "projectId": "8adc5bbe-add0-4a76-9573-958b06f10784"
       }
-    }
+    },
+    "owner": "najmulalammiraj"
   }
 }

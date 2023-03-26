@@ -25,7 +25,7 @@ export default function FilterModal({
         <View style={styles.card}>
           {/* close button */}
           <View style={styles.cardHeader}>
-            <Text style={styles.cardHeaderTitle}>খুঁজুন নাম অথবা ঠিকানা দিয়ে</Text>
+            <Text style={styles.cardHeaderTitle}>খুঁজুন বিষয় অথবা লেভেল নং দিয়ে</Text>
             <TouchableOpacity
               onPress={() => {
                 setIsVisible(false)
@@ -52,7 +52,7 @@ export default function FilterModal({
                 },
               ]}
             >
-              <Text style={styles.filterButtonText}>নাম</Text>
+              <Text style={styles.filterButtonText}>বিষয়</Text>
             </TouchableOpacity>
             <TouchableOpacity
               onPress={() => {
@@ -67,7 +67,7 @@ export default function FilterModal({
                 },
               ]}
             >
-              <Text style={styles.filterButtonText}>ঠিকানা</Text>
+              <Text style={styles.filterButtonText}>লেভেল নং</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -121,6 +121,6 @@ const styles = StyleSheet.create({
   filterButtonText: {
     color: 'black',
     fontWeight: '300',
-    fontSize: 18,
+    fontSize: 15,
   },
 })

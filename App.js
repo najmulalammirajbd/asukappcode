@@ -2,6 +2,9 @@ import { StatusBar } from 'expo-status-bar'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 import Home from './Components/Home/Home'
+import Apprul from './Components/Apprul/Apprul'
+import Pekege from './Components/Pekege/Pekege'
+import Refund from './Components/Refund/Refund'
 import Schoolmain from './Components/Schoolmain/Schoolmain'
 import Collagemain from './Components/Collagemain/Collagemain'
 import Contact from './Components/Contact/Contact'
@@ -31,6 +34,9 @@ export default function App() {
       <NavigationContainer>
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Apprul" component={Apprul} />
+          <Stack.Screen name="Refund" component={Refund} />
+          <Stack.Screen name="Pekege" component={Pekege} />
           <Stack.Screen name="Schoolmain" component={Schoolmain} />
           <Stack.Screen name="Collagemain" component={Collagemain} />
           <Stack.Screen name="Contact" component={Contact} />

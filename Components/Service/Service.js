@@ -11,6 +11,7 @@ export default function Artists() {
   const navigation = useNavigation()
   return (
     <View>
+      <Text style={{ color: 'black' , fontSize:9 , textAlign:'center' ,  marginBottom: 10 , fontWeight:'bold' }}>| সম্পাদনায় |</Text>
       
       <View style={{ flexDirection: 'row' }}>
         <Card style={{
@@ -20,7 +21,7 @@ export default function Artists() {
             marginRight:15
           }}>
         <Pressable
-          onPress={() => Linking.openURL('https://bdschoolghor.web.app')}
+          // onPress={() => Linking.openURL('https://bdschoolghor.web.app')}
           style={{
             alignItems: 'center',
             paddingTop: 10,
@@ -32,13 +33,17 @@ export default function Artists() {
           <Image
             style={{
               width: 100,
-              height: 40,
+              height: 52,
               alignItems: 'flex-start',
               resizeMode: 'contain',
             }}
-            source={require('../../assets/loco.png')}
+            source={require('../../assets/maruf.png')}
           />
-          <Text style={{ color: 'black' , fontSize:9 }}>প্রতিষ্ঠান রেজিস্ট্রেশন করুন</Text>
+          <Text style={{ color: 'black' , fontSize:9 , fontWeight: 'bold', }}>মাওলানা মাহমুদুল হাসান মারুফ</Text>
+          <Text style={{ color: 'black' , fontSize:9 ,  }}>কামিল ( তাফসির )</Text>
+          <Text style={{ color: 'black' , fontSize:9 ,  }}>দারুন্নাজাত সিদ্দীকিয়া কামিল মাদরাসা , ঢাকা ।</Text>
+          <Text style={{ color: 'black' , fontSize:9 ,  }}>ডিপ্লোমা ইন এরাবিক</Text>
+          <Text style={{ color: 'black' , fontSize:7 ,  }}>( আইএমএল ) শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় , সিলেট ।</Text>
         </Pressable>
         </Card>
       </View>

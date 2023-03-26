@@ -25,7 +25,7 @@ export default function Sscrollcard() {
                     <ScrollView
                         scrollEventThrottle={16}
                     >
-                        <View style={{ flex: 1, backgroundColor: 'white', paddingTop: 5 , paddingBottom:5 }}>
+                        <View style={{ flex: 1, backgroundColor: 'white', paddingTop: 5 , paddingBottom:5 , alignItems:'center' }}>
                             
 
                             <View style={{ height: 130, marginTop: 0 }}>
@@ -35,42 +35,29 @@ export default function Sscrollcard() {
                                 >
                                     <Pressable onPress={() => {navigation.navigate('Dhakas')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="ঢাকার স্কুল"
+                                        name="আরবি স্পোকেন বেসিক"
                                     />
                                     </Pressable>
                                     <Pressable onPress={() => {navigation.navigate('Chattograms')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="চট্রগ্রামের স্কুল"
+                                        name="আরবি স্পোকেন মিডিয়াম ( আসছে )"
                                     />
                                     </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Sylhets')}}>
+                                </ScrollView>
+                            </View>
+                            <View style={{ height: 130, marginTop: 10 }}>
+                                <ScrollView
+                                    horizontal={true}
+                                    showsHorizontalScrollIndicator={false}
+                                >
+                                    <Pressable onPress={() => {navigation.navigate('Dhakas')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="সিলেটের স্কুল"
+                                        name="আরবি স্পোকেন এডভান্স ( আসছে )"
                                     />
                                     </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Khulnas')}}>
+                                    <Pressable onPress={() => {navigation.navigate('Chattograms')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="খুলনার স্কুল"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Barishals')}}>
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="বরিশালের স্কুল"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Rajshahis')}}>
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="রাজশাহীর স্কুল"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Rangpurs')}}>
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="রংপুরের স্কুল"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Mymensinghs')}}>
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="ময়মনসিংহের স্কুল"
+                                        name="নহু সরফ ( আসছে )"
                                     />
                                     </Pressable>
                                 </ScrollView>
