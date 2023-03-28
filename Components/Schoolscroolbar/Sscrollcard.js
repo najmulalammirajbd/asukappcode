@@ -38,7 +38,7 @@ export default function Sscrollcard() {
                                         name="আরবি স্পোকেন বেসিক"
                                     />
                                     </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Chattograms')}}>
+                                    <Pressable >
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="আরবি স্পোকেন মিডিয়াম ( আসছে )"
                                     />
@@ -50,12 +50,12 @@ export default function Sscrollcard() {
                                     horizontal={true}
                                     showsHorizontalScrollIndicator={false}
                                 >
-                                    <Pressable onPress={() => {navigation.navigate('Dhakas')}}>
+                                    <Pressable >
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="আরবি স্পোকেন এডভান্স ( আসছে )"
                                     />
                                     </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Chattograms')}}>
+                                    <Pressable>
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="নহু সরফ ( আসছে )"
                                     />

@@ -17,7 +17,12 @@ export default function Header({ backBtn }) {
             name="left"
             size={26}
             color="#6a3383"
-           style={{marginBottom: 6 , marginLeft:6  , marginRight:7, paddingRight: 5}}
+           style={{flexDirection: 'row',
+           justifyContent: 'center',
+           alignItems: 'center' , marginLeft:6  , marginRight:7, paddingRight: 5 , marginRight:7,
+            borderRightColor:'#dddddd',
+            borderRightWidth : 0.5 ,
+            paddingRight: 5 ,}}
           />
         </Pressable>
       )}
@@ -31,7 +36,7 @@ const styles = StyleSheet.create({
     // borderBottomColor: 'grey',
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 10,
+    marginTop: 0,
     backgroundColor: 'white',
   },
   logo: {

@@ -13,10 +13,10 @@ export default function Header({ backBtn }) {
           }}
         >
           <AntDesign
-            style={{ marginLeft: 10, marginTop: 10 }}
-            name="leftcircle"
-            size={24}
-            color="#1daebb"
+            name="left"
+            size={17}
+            color="#ff5300"
+           style={{marginBottom: 6 , marginLeft:6 }}
           />
         </Pressable>
       )}
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   },
   logo: {
     width: 110,
-    height: 80,
+    height: 40,
     alignItems: 'flex-start',
     resizeMode: 'contain',
   },

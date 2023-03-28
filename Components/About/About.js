@@ -100,6 +100,8 @@ export default function About() {
       >
         রিফান্ড পলিসি
       </Text>
+      </View>
+      <View style={{flexDirection:'row' , marginTop: 15}}>
       <Text onPress={() => {navigation.navigate('Pekege')}}
         style={{
           color: 'black',
@@ -115,6 +117,22 @@ export default function About() {
         }}
       >
         প্যাকেজ
+      </Text>
+      <Text
+        style={{
+          color: 'black',
+          fontSize: 9,
+          marginTop: -0,
+          textAlign: "center",
+          marginBottom:2 ,
+          marginLeft: 10,
+          borderWidth: 0.5, 
+          borderColor: '#dddddd' ,
+          paddingHorizontal : 10,
+          paddingVertical: 5
+        }}
+      >
+        অ্যাপকে রেটিং দিন
       </Text>
       </View>
       <Text

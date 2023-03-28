@@ -34,7 +34,7 @@ export default function FilterModal({
                 alignSelf: 'flex-end',
               }}
             >
-              <AntDesign name="closecircle" size={24} color="#dddddd" />
+              <AntDesign name="closecircle" size={24} color="grey" />
             </TouchableOpacity>
           </View>
           {/* list */}
@@ -82,6 +82,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    borderRadius: 10
   },
   card: {
     paddingHorizontal: 15,
@@ -89,7 +90,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#ffffff',
     width: rw(90),
     height: rh(20),
-    borderRadius: 0,
+    borderRadius: 5,
   },
   cardHeaderTitle: {
     fontSize: 12,
@@ -116,7 +117,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 2,
     borderWidth: 0.5, 
-    borderColor: '#dddddd' ,
+    borderColor: 'black' ,
   },
   filterButtonText: {
     color: 'black',

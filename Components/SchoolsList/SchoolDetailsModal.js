@@ -27,14 +27,14 @@ export default function SchoolDetailsModal({ IsVisible, setIsVisible, data }) {
             alignSelf: 'flex-end',
           }}
         >
-          <AntDesign name="closecircle" size={24} color="#dddddd" />
+          <AntDesign name="closecircle" size={24} color="grey" />
         </TouchableOpacity>
         {/* list */}
         <ScrollView showsVerticalScrollIndicator={false}>
           <Image
             source={require('../../assets/loco.png')}
             style={{
-              height: 70,
+              height: 40,
               resizeMode: 'contain',
               width: rw(90),
             }}
@@ -197,13 +197,13 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: '#ffffff',
     flex: 1,
-    borderTopRightRadius: 24,
+    borderTopRightRadius: 35,
     borderTopLeftRadius: 0,
     paddingHorizontal: 15,
     paddingVertical: 15,
     marginTop: 15,
     borderWidth: 0.5,
-    borderColor: '#1daebb',
+    borderColor: 'grey',
   },
   listText: {
     paddingVertical: 5,

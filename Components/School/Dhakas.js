@@ -15,11 +15,12 @@ import {
     responsiveWidth as rw,
   } from 'react-native-responsive-dimensions'
   import React, { useEffect, useState } from 'react'
-  import Header from '../Navbar/Navbar'
+  import Header from '../Navbarthree/Navbarthree'
   import SchoolDetailsModal from '../SchoolsList/SchoolDetailsModal'
   import { Ionicons } from '@expo/vector-icons';
   import FilterModal from '../SchoolsList/FilterModal'
   import Gif from '../Gif/Gif'
+  import Navbarmain from '../Navbartwo/Navbartwo'
 import { Card } from 'react-native-shadow-cards'
   
   export default function SchoolsList() {
@@ -83,11 +84,13 @@ import { Card } from 'react-native-shadow-cards'
         />
   
         {/* Status Bar */}
-        <Header backBtn={true} />
+        <Navbarmain/>
+        
         <StatusBar />
         
-        <View style={styles.searchInputContainer}>
         
+        <View style={styles.searchInputContainer}>
+        <Header backBtn={true} />
         
           <TextInput
           placeholder=" খুঁজুন"
@@ -101,7 +104,7 @@ import { Card } from 'react-native-shadow-cards'
             }}
             style={styles.searchFilterButton}
           >
-            <Ionicons name="filter" size={26} color="#1daebb" />
+            <Ionicons name="filter" size={26} color="#693384" />
           </TouchableOpacity>
           
           {/* content */}
@@ -187,8 +190,10 @@ import { Card } from 'react-native-shadow-cards'
     marginRight:10 ,
     borderWidth: 0.5, 
     borderColor: '#dddddd' ,
-    paddingBottom:12 , 
-    paddingTop: 12
+    paddingBottom:0 , 
+    paddingTop: 0 ,
+    marginTop: 3 ,
+    borderRightColor: '#dddddd' ,
 
     },
     searchInput: {
@@ -207,7 +212,9 @@ import { Card } from 'react-native-shadow-cards'
       marginLeft:7,
       borderLeftColor:'#dddddd',
       borderLeftWidth : 0.5 ,
-      paddingLeft: 5
+      paddingLeft: 5 , 
+      paddingTop:15 ,
+      paddingBottom: 15
     },
     searchFilterText: {
       fontSize: 15,
