@@ -182,7 +182,7 @@ export default function SchoolDetailsModal({ IsVisible, setIsVisible, data }) {
           {/*  শ্রেণীসমূহের আসন সংখ্যা  */}
           {data?.icsn && (
             <View style={styles.listText}>
-              <Text style={styles.title}> পাঠঃ</Text>
+              <Text style={styles.title}> শব্দার্থঃ</Text>
               <Text style={styles.text}>{data?.icsn}</Text>
             </View>
           )}

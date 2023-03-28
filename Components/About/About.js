@@ -101,7 +101,7 @@ export default function About() {
         রিফান্ড পলিসি
       </Text>
       </View>
-      <View style={{flexDirection:'row' , marginTop: 15}}>
+      <View style={{flexDirection:'row' , marginTop: 7}}>
       <Text onPress={() => {navigation.navigate('Pekege')}}
         style={{
           color: 'black',
