@@ -7,7 +7,7 @@ import Cscrollcard from '../Collagescroolbar/Cscrollcard'
 
 export default function App() {
   return (
-    <ScrollView>
+    <ScrollView showsVerticalScrollIndicator={false}>
       <View style={{ backgroundColor: 'white' }}>
         <Navbarmain />
         <Baner />

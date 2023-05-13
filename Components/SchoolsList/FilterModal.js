@@ -25,7 +25,7 @@ export default function FilterModal({
         <View style={styles.card}>
           {/* close button */}
           <View style={styles.cardHeader}>
-            <Text style={styles.cardHeaderTitle}>খুঁজুন বিষয় অথবা লেভেল নং দিয়ে</Text>
+            <Text style={styles.cardHeaderTitle}>Search by subject or number</Text>
             <TouchableOpacity
               onPress={() => {
                 setIsVisible(false)
@@ -52,7 +52,7 @@ export default function FilterModal({
                 },
               ]}
             >
-              <Text style={styles.filterButtonText}>বিষয়</Text>
+              <Text style={styles.filterButtonText}>SUBJECT</Text>
             </TouchableOpacity>
             <TouchableOpacity
               onPress={() => {
@@ -67,7 +67,7 @@ export default function FilterModal({
                 },
               ]}
             >
-              <Text style={styles.filterButtonText}>লেভেল নং</Text>
+              <Text style={styles.filterButtonText}>NUMBER</Text>
             </TouchableOpacity>
           </View>
         </View>

@@ -28,7 +28,7 @@ export default function Baner() {
             marginBottom: 3,
           }}
         >
-          <Text style={{ color: 'black' , fontSize:11 }}>আরবি শেখার সহজ মাধ্যম</Text>
+          <Text style={{ color: 'black' , fontSize:11 }}>SIMPLE MEDIUM OF ISLAMIC MATTERS</Text>
         </TouchableOpacity>
         </Card>
       </View>

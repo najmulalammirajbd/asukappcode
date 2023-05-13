@@ -24,6 +24,13 @@ import Barishalc from './Components/Collage/Barishalc'
 import Rajshahic from './Components/Collage/Rajshahic'
 import Rangpurc from './Components/Collage/Rangpurc'
 import Mymensinghc from './Components/Collage/Mymensinghc'
+import Eman from './Components/Asuk/Eman'
+import Salah from './Components/Asuk/Salah'
+import Zakat from './Components/Asuk/Zakat'
+import Sawm from './Components/Asuk/Sawm'
+import Hajj from './Components/Asuk/Hajj'
+import Islamicblog from './Components/Asuk/Islamicblog'
+
 
 
 const Stack = createNativeStackNavigator()
@@ -34,6 +41,12 @@ export default function App() {
       <NavigationContainer>
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="Eman" component={Eman} />
+          <Stack.Screen name="Salah" component={Salah} />
+          <Stack.Screen name="Zakat" component={Zakat} />
+          <Stack.Screen name="Sawm" component={Sawm} />
+          <Stack.Screen name="Hajj" component={Hajj} />
+          <Stack.Screen name="Islamicblog" component={Islamicblog} />
           <Stack.Screen name="Apprul" component={Apprul} />
           <Stack.Screen name="Refund" component={Refund} />
           <Stack.Screen name="Pekege" component={Pekege} />

@@ -28,11 +28,11 @@ export default function About() {
           marginBottom:5
         }}
       >
-        আশ শাজারাহ সাব্সক্রাইব করার পর এক অ্যাকাউন্ট দুটি ডিভাইসে লগইন করা যাবে না ।
-        লগইন করলে অটোমেটিক আপনার অ্যাকাউন্ট ডিলেট হয়ে যাবে ।
+        Our app is developed by expert Islamic scholars. If you have any suggestions or complaints about our app, 
+        please email us at: ashshajarahuk.info@gmail.com
 
       </Text>
-      <Text
+      {/* <Text
         style={{
           color: 'black',
           fontSize: 10,
@@ -46,7 +46,7 @@ export default function About() {
       >
         আশ শাজারাহ অ্যাপের যে কোন বিষয়ে আশ শাজারাহ পরিচালনা বোর্ডের সিদ্ধান্ত চূড়ান্ত বলে গণ্য হবে
         
-      </Text>
+      </Text> */}
       <Navbar backBtn={true}/>
     </View>
     </>

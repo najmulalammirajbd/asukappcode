@@ -28,9 +28,8 @@ export default function About() {
           marginBottom:5
         }}
       >
-        আশ শাজারাহ আরবি শেখার একটি অ্যাপ । কোন ভিডিও কোর্সের অ্যাপ নয় । যে কেউ বিভিন্ন লেভেল সম্পন্ন করলে 
-        হয়ে উঠবে আরবিতে দক্ষ । আরবিতে সুদক্ষ ও অভিজ্ঞতাসম্পন্ন শিক্ষকদের দ্বারা সম্পাদিত হয়ে থাকে
-        আমাদের লেভেলগুলো । যুক্তরাজ্য ও বাংলাদেশ থেকে পরিচালিত হয়ে থাকে উক্ত অ্যাপটি ।
+        When someone reverts to islam or claims himself as a muslim, he should know all about islam. The characteristic of a muslim is to know all aspects of islam and act upon it.
+Ash Shajarah is an islamic app. Where you can know about all islamic matters. Expert islamic scholars carry out all the topics of the app through deep research and analysis.
       </Text>
       <Service />
       {/* <View style={{ flexDirection: "row", marginTop: 7, marginBottom: 1 }}>
@@ -82,41 +81,7 @@ export default function About() {
           paddingVertical: 5
         }}
       >
-        অ্যাপ ব্যাবহারের নিয়মাবলি
-      </Text>
-      <Text onPress={() => {navigation.navigate('Refund')}}
-        style={{
-          color: 'black',
-          fontSize: 9,
-          marginTop: -0,
-          textAlign: "center",
-          marginBottom:2 ,
-          marginLeft: 10 ,
-          borderWidth: 0.5, 
-          borderColor: '#dddddd' ,
-          paddingHorizontal : 10,
-          paddingVertical: 5
-        }}
-      >
-        রিফান্ড পলিসি
-      </Text>
-      </View>
-      <View style={{flexDirection:'row' , marginTop: 7}}>
-      <Text onPress={() => {navigation.navigate('Pekege')}}
-        style={{
-          color: 'black',
-          fontSize: 9,
-          marginTop: -0,
-          textAlign: "center",
-          marginBottom:2 ,
-          marginLeft: 10,
-          borderWidth: 0.5, 
-          borderColor: '#dddddd' ,
-          paddingHorizontal : 10,
-          paddingVertical: 5
-        }}
-      >
-        প্যাকেজ
+        TERMS OF USE OF THE APP
       </Text>
       <Text
         style={{
@@ -132,8 +97,11 @@ export default function About() {
           paddingVertical: 5
         }}
       >
-        অ্যাপকে রেটিং দিন
+        RATE THE APP
       </Text>
+      </View>
+      <View style={{flexDirection:'row' , marginTop: 7}}>
+      
       </View>
       <Text
         style={{
@@ -144,7 +112,7 @@ export default function About() {
           marginBottom:5
         }}
       >
-        © Ash Shajarah
+        © ASH SHAJARAH
       </Text>
     </View>
     </>

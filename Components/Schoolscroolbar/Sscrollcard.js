@@ -33,14 +33,14 @@ export default function Sscrollcard() {
                                     horizontal={true}
                                     showsHorizontalScrollIndicator={false}
                                 >
-                                    <Pressable onPress={() => {navigation.navigate('Dhakas')}}>
+                                    <Pressable onPress={() => {navigation.navigate('Eman')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="আরবি স্পোকেন বেসিক"
+                                        name="Eman"
                                     />
                                     </Pressable>
-                                    <Pressable >
+                                    <Pressable onPress={() => {navigation.navigate('Salah')}} >
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="আরবি স্পোকেন মিডিয়াম ( আসছে )"
+                                        name="Salah"
                                     />
                                     </Pressable>
                                 </ScrollView>
@@ -50,16 +50,35 @@ export default function Sscrollcard() {
                                     horizontal={true}
                                     showsHorizontalScrollIndicator={false}
                                 >
-                                    <Pressable >
+                                    <Pressable onPress={() => {navigation.navigate('Zakat')}} >
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="আরবি স্পোকেন এডভান্স ( আসছে )"
+                                        name="Zakat"
                                     />
                                     </Pressable>
-                                    <Pressable>
+                                    <Pressable onPress={() => {navigation.navigate('Sawm')}}>
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="নহু সরফ ( আসছে )"
+                                        name="Sawm"
                                     />
                                     </Pressable>
+                                    
+                                </ScrollView>
+                            </View>
+                            <View style={{ height: 130, marginTop: 10 }}>
+                                <ScrollView
+                                    horizontal={true}
+                                    showsHorizontalScrollIndicator={false}
+                                >
+                                    <Pressable onPress={() => {navigation.navigate('Hajj')}}>
+                                    <Category imageUri={require('../../assets/appicon.png')}
+                                        name="Hajj"
+                                    />
+                                    </Pressable>
+                                    <Pressable onPress={() => {navigation.navigate('Islamicblog')}}>
+                                    <Category imageUri={require('../../assets/appicon.png')}
+                                        name="Islamic Blog"
+                                    />
+                                    </Pressable>
+                                    
                                 </ScrollView>
                             </View>
                             

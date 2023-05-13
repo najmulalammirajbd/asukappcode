@@ -11,9 +11,8 @@ export default function Artists() {
   const navigation = useNavigation()
   return (
     <View>
-      <Text style={{ color: 'black' , fontSize:9 , textAlign:'center' ,  marginBottom: 10 , fontWeight:'bold' }}>| সম্পাদনায় |</Text>
       
-      <View style={{ flexDirection: 'row' }}>
+      <View style={{ flexDirection: 'row' , marginTop: 7 }}>
         <Card style={{
             justifyContent: 'center',
             width:'92%',
@@ -21,6 +20,7 @@ export default function Artists() {
             marginRight:15
           }}>
         <Pressable
+        onPress={() => {navigation.navigate('Pekege')}}
           // onPress={() => Linking.openURL('https://bdschoolghor.web.app')}
           style={{
             alignItems: 'center',
@@ -30,7 +30,7 @@ export default function Artists() {
             marginBottom: 3,
           }}
         >
-          <Image
+          {/* <Image
             style={{
               width: 100,
               height: 52,
@@ -38,12 +38,10 @@ export default function Artists() {
               resizeMode: 'contain',
             }}
             source={require('../../assets/maruf.png')}
-          />
-          <Text style={{ color: 'black' , fontSize:9 , fontWeight: 'bold', }}>মাওলানা মাহমুদুল হাসান মারুফ</Text>
-          <Text style={{ color: 'black' , fontSize:9 ,  }}>কামিল ( তাফসির )</Text>
-          <Text style={{ color: 'black' , fontSize:9 ,  }}>দারুন্নাজাত সিদ্দীকিয়া কামিল মাদরাসা , ঢাকা ।</Text>
-          <Text style={{ color: 'black' , fontSize:9 ,  }}>ডিপ্লোমা ইন এরাবিক</Text>
-          <Text style={{ color: 'black' , fontSize:7 ,  }}>( আইএমএল ) শাহজালাল বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয় , সিলেট ।</Text>
+          /> */}
+          <Text style={{ color: 'black' , fontSize:13 , fontWeight: 'bold', }}>LEARN ANYTHING ABOUT ISLAM</Text>
+          <Text style={{ color: 'black' , fontSize:13 , fontWeight: 'bold', }}>FROM ISLAMIC SCHOLARS</Text>
+          <Text style={{ color: '#693384' , fontSize:15 ,  }}>SUBSCRIBE NOW</Text>
         </Pressable>
         </Card>
       </View>
