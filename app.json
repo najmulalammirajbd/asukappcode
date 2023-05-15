@@ -11,7 +11,7 @@
       "backgroundColor": "#ffffff"
     },
     "package": "com.ashshajarah",
-    "versionCode": 2,
+    "versionCode": 1,
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -27,7 +27,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.ashshajarah",
-      "versionCode": 2
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
