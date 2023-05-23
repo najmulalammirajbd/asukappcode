@@ -29,7 +29,9 @@ import Salah from './Components/Asuk/Salah'
 import Zakat from './Components/Asuk/Zakat'
 import Sawm from './Components/Asuk/Sawm'
 import Hajj from './Components/Asuk/Hajj'
+import Taharat from './Components/Asuk/Taharat'
 import Islamicblog from './Components/Asuk/Islamicblog'
+
 
 
 
@@ -46,6 +48,7 @@ export default function App() {
           <Stack.Screen name="Zakat" component={Zakat} />
           <Stack.Screen name="Sawm" component={Sawm} />
           <Stack.Screen name="Hajj" component={Hajj} />
+          <Stack.Screen name="Taharat" component={Taharat} />
           <Stack.Screen name="Islamicblog" component={Islamicblog} />
           <Stack.Screen name="Apprul" component={Apprul} />
           <Stack.Screen name="Refund" component={Refund} />

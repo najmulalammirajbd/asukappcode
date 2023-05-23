@@ -22,55 +22,31 @@ export default function Cscrollcard() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
                 <View style={{ flex: 1 }}>
+                    <Text style={{textAlign:'center' , fontSize:10 , marginTop:5 , marginBottom:5 , fontWeight:'bold'}}>COURSE | COMING SOON</Text>
                     <ScrollView
                         scrollEventThrottle={16}
                     >
                         <View style={{ flex: 1, backgroundColor: 'white', paddingTop: 5 , paddingBottom:5 }}>
                             
 
-                            <View style={{ height: 130, marginTop: 0 }}>
+                            <View style={{ height: 100, marginTop: 0 }}>
                                 <ScrollView
                                     horizontal={true}
                                     showsHorizontalScrollIndicator={false}
                                 >
-                                    <Pressable onPress={() => {navigation.navigate('Dhakac')}}>
+                                    <Pressable >
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="ঢাকার কলেজ"
+                                        name="Learn Quran in 24 hours"
                                     />
                                     </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Chattogramc')}}>
+                                    <Pressable >
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="চট্রগ্রামের কলেজ"
+                                        name="Teaching Salah"
                                     />
                                     </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Sylhetc')}}>
+                                    <Pressable >
                                     <Category imageUri={require('../../assets/appicon.png')}
-                                        name="সিলেটের কলেজ"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Khulnac')}}>
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="খুলনার কলেজ"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Barishalc')}}>
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="বরিশালের কলেজ"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Rajshahic')}}>
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="রাজশাহীর কলেজ"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Rangpurc')}}>
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="রংপুরের কলেজ"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Mymensinghc')}}>
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="ময়মনসিংহের কলেজ"
+                                        name="Spoken Arabic"
                                     />
                                     </Pressable>
                                 </ScrollView>

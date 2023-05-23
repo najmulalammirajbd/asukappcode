@@ -12,6 +12,7 @@ export default function App() {
         <Navbarmain />
         <Baner />
         <Sscrollcard/>
+        <Cscrollcard/>
         <About/>
         </View>
     </ScrollView>

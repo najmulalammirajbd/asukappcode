@@ -15,7 +15,7 @@ export default function Baner() {
         <Card style={{
             justifyContent: 'center',
             width:'92%',
-            marginLeft:14,
+            marginLeft:15,
             marginRight:15,
             height:70
           }}>
