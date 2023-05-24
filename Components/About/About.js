@@ -85,7 +85,7 @@ Ash Shajarah is an islamic app. Where you can know about all islamic matters. Ex
       >
         <FontAwesome name="facebook-official" size={15} color="#818c96" />
       </Text>
-      <Text
+      {/* <Text
         style={{
           color: 'black',
           fontSize: 9,
@@ -118,7 +118,7 @@ Ash Shajarah is an islamic app. Where you can know about all islamic matters. Ex
         onPress={() => Linking.openURL('https://play.google.com/store/apps/details?id=com.ashshajarah')}
       >
         <FontAwesome name="twitter" size={15} color="#818c96" />
-      </Text>
+      </Text> */}
       <Text
         style={{
           color: 'black',

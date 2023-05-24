@@ -1,6 +1,6 @@
 import { ScrollView, StyleSheet, Text, View } from 'react-native'
 import Baner from '../Baner/Baner'
-import Navbarmain from '../Navbarmain/Navbarmain'
+import Navbarmain from '../Navbartwo/Navbartwo'
 import About from '../About/About'
 import Sscrollcard from '../Schoolscroolbar/Sscrollcard'
 import Cscrollcard from '../Collagescroolbar/Cscrollcard'
@@ -10,7 +10,7 @@ export default function App() {
     <ScrollView showsVerticalScrollIndicator={false}>
       <View style={{ backgroundColor: 'white' }}>
         <Navbarmain />
-        <Baner />
+        {/* <Baner /> */}
         <Sscrollcard/>
         <Cscrollcard/>
         <About/>

@@ -93,7 +93,7 @@ import { Card } from 'react-native-shadow-cards'
         <Header backBtn={true} />
         
           <TextInput
-          placeholder=" FIND"
+          placeholder={FilterCatName=='ina'?"SEARCH BY SUBJECT ":"SEARCH BY NUMBER"}
           placeholderTextColor="#666"
             onChangeText={(text) => searchFilter(text)}
             style={styles.searchInput}
@@ -141,7 +141,7 @@ import { Card } from 'react-native-shadow-cards'
                       />
                       <View>
                         <Text numberOfLines={2} style={styles.name}>
-                        Title : {item?.item?.ina}
+                        Subject : {item?.item?.ina}
                         </Text>
                         <Text numberOfLines={3} style={styles.address}>
                           No: {item.item.iad}

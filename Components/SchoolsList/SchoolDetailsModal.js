@@ -42,7 +42,7 @@ export default function SchoolDetailsModal({ IsVisible, setIsVisible, data }) {
           {/* প্রতিষ্ঠানের পূর্ণ নাম */}
           {data?.ina && (
             <View style={styles.listText}>
-              <Text style={styles.title}>Title :</Text>
+              <Text style={styles.title}>Subject :</Text>
               <Text style={styles.text}>{data?.ina}</Text>
             </View>
           )}

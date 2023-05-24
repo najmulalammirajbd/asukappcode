@@ -25,7 +25,7 @@ export default function FilterModal({
         <View style={styles.card}>
           {/* close button */}
           <View style={styles.cardHeader}>
-            <Text style={styles.cardHeaderTitle}>Search by subject or number</Text>
+            <Text style={styles.cardHeaderTitle}>SEARCH BY SUBJECT OR NUMBER</Text>
             <TouchableOpacity
               onPress={() => {
                 setIsVisible(false)
