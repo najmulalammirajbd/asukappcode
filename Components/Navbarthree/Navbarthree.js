@@ -16,7 +16,7 @@ export default function Header({ backBtn }) {
           <AntDesign
             name="left"
             size={26}
-            color="#6a3383"
+            color="grey"
            style={{flexDirection: 'row',
            justifyContent: 'center',
            alignItems: 'center' , marginLeft:6  , marginRight:7, paddingRight: 5 , marginRight:7,

@@ -104,7 +104,7 @@ import { Card } from 'react-native-shadow-cards'
             }}
             style={styles.searchFilterButton}
           >
-            <Ionicons name="filter" size={26} color="#693384" />
+            <Ionicons name="filter" size={26} color="#9e6f1a" />
           </TouchableOpacity>
           
           {/* content */}
@@ -137,7 +137,7 @@ import { Card } from 'react-native-shadow-cards'
                     >
                       <Image
                         style={styles.image}
-                        source={require('../../assets/loco.png')}
+                        source={require('../../assets/logo.png')}
                       />
                       <View>
                         <Text numberOfLines={2} style={styles.name}>

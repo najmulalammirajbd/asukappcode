@@ -41,7 +41,7 @@ export default function Artists() {
           /> */}
           <Text style={{ color: 'black' , fontSize:13 , fontWeight: 'bold', }}>LEARN ANYTHING ABOUT ISLAM</Text>
           <Text style={{ color: 'black' , fontSize:13 , fontWeight: 'bold', }}>FROM ISLAMIC SCHOLARS</Text>
-          <Text style={{ color: '#693384' , fontSize:15 ,  }}>SUBSCRIBE NOW</Text>
+          <Text style={{ color: '#9e6f1a' , fontSize:15 ,  }}>SUBSCRIBE NOW</Text>
         </Pressable>
         </Card>
       </View>

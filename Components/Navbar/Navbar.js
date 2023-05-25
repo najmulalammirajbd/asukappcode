@@ -16,7 +16,7 @@ export default function Header({ backBtn }) {
           <AntDesign
             name="left"
             size={26}
-            color="#6a3383"
+            color="#9e6f1a"
            style={{marginBottom: 6 , marginLeft:6  , marginRight:7, paddingRight: 0}}
           />
         </Pressable>

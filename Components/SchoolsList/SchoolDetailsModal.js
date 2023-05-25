@@ -32,7 +32,7 @@ export default function SchoolDetailsModal({ IsVisible, setIsVisible, data }) {
         {/* list */}
         <ScrollView showsVerticalScrollIndicator={false}>
           <Image
-            source={require('../../assets/loco.png')}
+            source={require('../../assets/logo.png')}
             style={{
               height: 40,
               resizeMode: 'contain',

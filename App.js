@@ -31,6 +31,7 @@ import Sawm from './Components/Asuk/Sawm'
 import Hajj from './Components/Asuk/Hajj'
 import Taharat from './Components/Asuk/Taharat'
 import Islamicblog from './Components/Asuk/Islamicblog'
+import Quran from './Components/Asuk/Course/Quran'
 
 
 
@@ -50,6 +51,7 @@ export default function App() {
           <Stack.Screen name="Hajj" component={Hajj} />
           <Stack.Screen name="Taharat" component={Taharat} />
           <Stack.Screen name="Islamicblog" component={Islamicblog} />
+          <Stack.Screen name="Quran" component={Quran} />
           <Stack.Screen name="Apprul" component={Apprul} />
           <Stack.Screen name="Refund" component={Refund} />
           <Stack.Screen name="Pekege" component={Pekege} />

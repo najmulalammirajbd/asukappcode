@@ -22,7 +22,7 @@ export default function Cscrollcard() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
                 <View style={{ flex: 1 }}>
-                    <Text style={{textAlign:'center' , fontSize:10 , marginTop:5 , marginBottom:5 , fontWeight:'bold'}}>COURSE | COMING SOON</Text>
+                    <Text style={{textAlign:'center' , fontSize:10 , marginTop:5 , marginBottom:5 , fontWeight:'bold'}}>COURSE</Text>
                     <ScrollView
                         scrollEventThrottle={16}
                     >
@@ -34,17 +34,17 @@ export default function Cscrollcard() {
                                     horizontal={true}
                                     showsHorizontalScrollIndicator={false}
                                 >
-                                    <Pressable >
+                                    <Pressable onPress={() => {navigation.navigate('Quran')}} >
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="Learn Quran in 24 hours"
                                     />
                                     </Pressable>
-                                    <Pressable >
+                                    <Pressable onPress={() => {navigation.navigate('Quran')}} >
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="Teaching Salah"
                                     />
                                     </Pressable>
-                                    <Pressable >
+                                    <Pressable onPress={() => {navigation.navigate('Quran')}} >
                                     <Category imageUri={require('../../assets/appicon.png')}
                                         name="Spoken Arabic"
                                     />
