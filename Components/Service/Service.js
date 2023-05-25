@@ -20,7 +20,8 @@ export default function Artists() {
             marginRight:15
           }}>
         <Pressable
-        onPress={() => {navigation.navigate('Pekege')}}
+        onPress={() => {navigation.navigate('Quran')}}
+        // onPress={() => {navigation.navigate('Pekege')}}
           // onPress={() => Linking.openURL('https://bdschoolghor.web.app')}
           style={{
             alignItems: 'center',
@@ -39,9 +40,9 @@ export default function Artists() {
             }}
             source={require('../../assets/maruf.png')}
           /> */}
-          <Text style={{ color: 'black' , fontSize:13 , fontWeight: 'bold', }}>LEARN ANYTHING ABOUT ISLAM</Text>
-          <Text style={{ color: 'black' , fontSize:13 , fontWeight: 'bold', }}>FROM ISLAMIC SCHOLARS</Text>
-          <Text style={{ color: '#9e6f1a' , fontSize:15 ,  }}>SUBSCRIBE NOW</Text>
+          <Text style={{ color: 'black' , fontSize:13  }}>EXCLUSIVE PODCAST</Text>
+          <Text style={{ color: 'black' , fontSize:20 , fontWeight: 'bold',}}>the islam</Text>
+          <Text style={{ color: '#9e6f1a' , fontSize:15 ,  }}>LISTEN NOW</Text>
         </Pressable>
         </Card>
       </View>

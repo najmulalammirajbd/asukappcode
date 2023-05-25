@@ -28,8 +28,7 @@ export default function About() {
           marginBottom:5
         }}
       >
-        When someone reverts to islam or claims himself as a muslim, he should know all about islam. The characteristic of a muslim is to know all aspects of islam and act upon it.
-Ash Shajarah is an islamic app. Where you can know about all islamic matters. Expert islamic scholars carry out all the topics of the app through deep research and analysis.
+        When someone reverts to Islam or claims himself as a Muslim, he should know about Islam. The characteristic of a Muslim is to know aspects of Islam and act upon them. Ash Shajarah is an Islamic matters app. Where you can know about Islamic matters. Expert Islamic scholars Edited all the topics of the app through deep research and analysis.
       </Text>
       <Service />
       {/* <View style={{ flexDirection: "row", marginTop: 7, marginBottom: 1 }}>
