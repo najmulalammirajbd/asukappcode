@@ -27,7 +27,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "package": "com.ashshajarah",
-      "versionCode": 3
+      "versionCode": 4
     },
     "web": {
       "favicon": "./assets/favicon.png"

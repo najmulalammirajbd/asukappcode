@@ -20,7 +20,7 @@ export default function Artists() {
             marginRight:15
           }}>
         <Pressable
-        onPress={() => {navigation.navigate('Quran')}}
+        onPress={() => {navigation.navigate('Podcast')}}
         // onPress={() => {navigation.navigate('Pekege')}}
           // onPress={() => Linking.openURL('https://bdschoolghor.web.app')}
           style={{

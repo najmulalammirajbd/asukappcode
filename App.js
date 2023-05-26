@@ -32,6 +32,7 @@ import Hajj from './Components/Asuk/Hajj'
 import Taharat from './Components/Asuk/Taharat'
 import Islamicblog from './Components/Asuk/Islamicblog'
 import Quran from './Components/Asuk/Course/Quran'
+import Podcast from './Components/Podcast/Podcast'
 
 
 
@@ -55,6 +56,7 @@ export default function App() {
           <Stack.Screen name="Apprul" component={Apprul} />
           <Stack.Screen name="Refund" component={Refund} />
           <Stack.Screen name="Pekege" component={Pekege} />
+          <Stack.Screen name="Podcast" component={Podcast} />
           <Stack.Screen name="Schoolmain" component={Schoolmain} />
           <Stack.Screen name="Collagemain" component={Collagemain} />
           <Stack.Screen name="Contact" component={Contact} />
