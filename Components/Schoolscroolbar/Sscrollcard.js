@@ -16,6 +16,7 @@ import {
   import Icon from 'react-native-vector-icons/Ionicons'
   import Category from './Schoolscroolbar'
   import React, { useState } from 'react'
+  import { MaterialIcons } from '@expo/vector-icons';
   
   const { height, width } = Dimensions.get('window')
   
@@ -116,9 +117,30 @@ import {
                   </Pressable>
                 </ScrollView>
               </View>
+              {/* <View style={{ height: 80, marginTop: 10 }}>
+                <ScrollView
+                  horizontal={true}
+                  showsHorizontalScrollIndicator={false}
+                >
+                  <Pressable
+                    onPress={() => {
+                      navigation.navigate('Sawm')
+                    }}
+                  >
+                    <Category
+                      imageUri={require('../../assets/appicon.png')}
+                      name="Other"
+                    />
+                  </Pressable>
+                </ScrollView>
+              </View> */}
               {More && (
                 <View>
-                  <View style={{ height: 80, marginTop: 10 }}>
+                  <View>
+                  <Text style={{textAlign:'center' , fontSize:14 , fontWeight:'100' , backgroundColor:'#9e6f1a' , color:'white', marginTop:7}}>QURAN BRANCH</Text>
+                  <Text style={{textAlign:'center' , fontSize:9 , fontWeight:'500'}}>HOW TO ACCESS THE BRANCH</Text>
+                  <MaterialIcons style={{textAlign:'center'}} name="touch-app" size={30} color="#9e6f1a" />
+                  <View style={{ height: 80, marginTop: 5 }}>
                   <ScrollView
                     horizontal={true}
                     showsHorizontalScrollIndicator={false}
@@ -130,7 +152,7 @@ import {
                     >
                       <Category
                         imageUri={require('../../assets/appicon.png')}
-                        name="80 Short Hadith For Kids"
+                        name="40 Verse For Kids"
                       />
                     </Pressable>
                     <Pressable
@@ -140,7 +162,7 @@ import {
                     >
                       <Category
                         imageUri={require('../../assets/appicon.png')}
-                        name="80 Short Hadith For Woman"
+                        name="40 Verse For Woman"
                       />
                     </Pressable>
                   </ScrollView>
@@ -157,11 +179,61 @@ import {
                   >
                     <Category
                       imageUri={require('../../assets/appicon.png')}
-                      name="80 Short Hadith For Men"
+                      name="Verse For Men"
                     />
                   </Pressable>
                 </ScrollView>
               </View>
+                </View>
+                  <View>
+                  <Text style={{textAlign:'center' , fontSize:14 , fontWeight:'100' , backgroundColor:'#9e6f1a' , color:'white', marginTop:7}}>HADITH BRANCH</Text>
+                  <Text style={{textAlign:'center' , fontSize:9 , fontWeight:'500'}}>HOW TO ACCESS THE BRANCH</Text>
+                  <MaterialIcons style={{textAlign:'center'}} name="touch-app" size={30} color="#9e6f1a" />
+                  <View style={{ height: 80, marginTop: 5 }}>
+                  <ScrollView
+                    horizontal={true}
+                    showsHorizontalScrollIndicator={false}
+                  >
+                    <Pressable
+                      // onPress={() => {
+                      //   navigation.navigate('Islamicblog')
+                      // }}
+                    >
+                      <Category
+                        imageUri={require('../../assets/appicon.png')}
+                        name="40 Short Hadith For Kids"
+                      />
+                    </Pressable>
+                    <Pressable
+                      // onPress={() => {
+                      //   navigation.navigate('Islamicblog')
+                      // }}
+                    >
+                      <Category
+                        imageUri={require('../../assets/appicon.png')}
+                        name="40 Short Hadith For Woman"
+                      />
+                    </Pressable>
+                  </ScrollView>
+                </View>
+                <View style={{ height: 80, marginTop: 10 , alignItems:'center' }}>
+                <ScrollView
+                  horizontal={true}
+                  showsHorizontalScrollIndicator={false}
+                >
+                  <Pressable
+                    // onPress={() => {
+                    //   navigation.navigate('Islamicblog')
+                    // }}
+                  >
+                    <Category
+                      imageUri={require('../../assets/appicon.png')}
+                      name="40 Short Hadith For Men"
+                    />
+                  </Pressable>
+                </ScrollView>
+              </View>
+                </View>
                 </View>
               )}
               <TouchableOpacity

@@ -1,68 +1,57 @@
+import { View, Text, Pressable, Image, Linking } from 'react-native'
 import {
-    View,
-    Text,
-    StyleSheet,
-    SafeAreaView,
-    TextInput,
-    Platform,
-    StatusBar,
-    ScrollView,
-    Image,
-    Dimensions,
-    Pressable
-} from "react-native";
+  MaterialCommunityIcons,
+  Ionicons,
+  FontAwesome5,
+} from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
-import Icon from 'react-native-vector-icons/Ionicons'
-import Category from './Collagescroolbar'
+import {Card} from 'react-native-shadow-cards';
 
-const { height, width } = Dimensions.get('window')
-
-export default function Cscrollcard() {
+export default function Artists() {
   const navigation = useNavigation()
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-                <View style={{ flex: 1 }}>
-                    <Text style={{textAlign:'center' , fontSize:10 , marginTop:5 , marginBottom:5 , fontWeight:'bold'}}>COURSE</Text>
-                    <ScrollView
-                        scrollEventThrottle={16}
-                    >
-                        <View style={{ flex: 1, backgroundColor: 'white', paddingTop: 5 , paddingBottom:5 }}>
-                            
-
-                            <View style={{ height: 100, marginTop: 0 }}>
-                                <ScrollView
-                                    horizontal={true}
-                                    showsHorizontalScrollIndicator={false}
-                                >
-                                    <Pressable onPress={() => {navigation.navigate('Quran')}} >
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="Learn Quran in 24 hours"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Quran')}} >
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="Teaching Salah"
-                                    />
-                                    </Pressable>
-                                    <Pressable onPress={() => {navigation.navigate('Quran')}} >
-                                    <Category imageUri={require('../../assets/appicon.png')}
-                                        name="Spoken Arabic"
-                                    />
-                                    </Pressable>
-                                </ScrollView>
-                            </View>
-                            
-                        </View>
-                    </ScrollView>
-
-                </View>
-            </SafeAreaView>
+    <View>
+      
+      <View style={{ flexDirection: 'row' , marginTop: 7 }}>
+        <Card style={{
+            justifyContent: 'center',
+            width:'92%',
+            marginLeft:15,
+            marginRight:15 ,
+            marginBottom:0 ,
+            shadowColor: 0,
+            borderWidth: 0.5, 
+            borderColor: '#dddddd' ,
+            borderRadius: 3
+          }}>
+        <Pressable
+        onPress={() => {navigation.navigate('Quran')}}
+        // onPress={() => {navigation.navigate('Pekege')}}
+          // onPress={() => Linking.openURL('https://bdschoolghor.web.app')}
+          style={{
+            alignItems: 'center',
+            paddingTop: 10,
+            paddingBottom: 10,
+            width: '100%',
+            marginBottom: 3,
+          }}
+        >
+          {/* <Image
+            style={{
+              width: 100,
+              height: 52,
+              alignItems: 'flex-start',
+              resizeMode: 'contain',
+            }}
+            source={require('../../assets/maruf.png')}
+          /> */}
+          <Text style={{ color: 'black' , fontSize:13  }}>COURSE</Text>
+          <Image style={{width:'50%' , height:70 , resizeMode:'contain'}} source = {require('../../assets/appicon.png')} />
+          <Text style={{ color: 'black' , fontSize:15 , fontWeight: '200', }}>LEARN <Text style={{ color: 'black' , fontSize:15 , fontWeight: '700',}}>QURAN</Text> IN 24 HOURS</Text>
+          <Text style={{marginTop:5,backgroundColor:'#9e6f1a' , width:'90%' , textAlign:'center', paddingTop:10 , paddingBottom: 10 , borderRadius:500}}><Text style={{ color: 'white' , fontSize:13 ,fontWeight: '100' , }}>ENROLL NOW</Text></Text>
+        </Pressable>
+        </Card>
+      </View>
+    </View>
   )
 }
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        alignItems: 'center',
-        justifyContent: 'center'
-    }
-});

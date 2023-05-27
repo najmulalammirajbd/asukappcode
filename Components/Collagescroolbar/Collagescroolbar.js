@@ -9,7 +9,7 @@ import {
 class Collagescroolbar extends Component {
     render() {
         return (
-            <View style={{ height: 100, width: 130, marginLeft: 5, borderWidth: 0.5, borderColor: '#dddddd' , marginRight:5 }}>
+            <View style={{ height: 100, width: '100%', marginLeft: 5, borderWidth: 0.5, borderColor: '#dddddd' , marginRight:5 ,}}>
                 <View style={{ flex: 2 }}>
                     <Image source={this.props.imageUri}
                         style={{ flex: 1, width: null, height: null, resizeMode: 'contain' }}
