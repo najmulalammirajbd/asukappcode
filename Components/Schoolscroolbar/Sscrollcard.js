@@ -47,7 +47,7 @@ import {
                   >
                     <Category
                       imageUri={require('../../assets/appicon.png')}
-                      name="Taharat"
+                      name="Taharah"
                     />
                   </Pressable>
                   <Pressable
@@ -57,7 +57,7 @@ import {
                   >
                     <Category
                       imageUri={require('../../assets/appicon.png')}
-                      name="Eman"
+                      name="Iman"
                     />
                   </Pressable>
                 </ScrollView>
@@ -84,7 +84,7 @@ import {
                   >
                     <Category
                       imageUri={require('../../assets/appicon.png')}
-                      name="Zakat"
+                      name="Zakah"
                     />
                   </Pressable>
                 </ScrollView>
@@ -117,22 +117,51 @@ import {
                 </ScrollView>
               </View>
               {More && (
-                <View style={{ height: 80, marginTop: 10 }}>
+                <View>
+                  <View style={{ height: 80, marginTop: 10 }}>
                   <ScrollView
                     horizontal={true}
                     showsHorizontalScrollIndicator={false}
                   >
                     <Pressable
-                      onPress={() => {
-                        navigation.navigate('Islamicblog')
-                      }}
+                      // onPress={() => {
+                      //   navigation.navigate('Islamicblog')
+                      // }}
                     >
                       <Category
                         imageUri={require('../../assets/appicon.png')}
-                        name="Islamic Blog"
+                        name="80 Short Hadith For Kids"
+                      />
+                    </Pressable>
+                    <Pressable
+                      // onPress={() => {
+                      //   navigation.navigate('Islamicblog')
+                      // }}
+                    >
+                      <Category
+                        imageUri={require('../../assets/appicon.png')}
+                        name="80 Short Hadith For Woman"
                       />
                     </Pressable>
                   </ScrollView>
+                </View>
+                <View style={{ height: 80, marginTop: 10 , alignItems:'center' }}>
+                <ScrollView
+                  horizontal={true}
+                  showsHorizontalScrollIndicator={false}
+                >
+                  <Pressable
+                    // onPress={() => {
+                    //   navigation.navigate('Islamicblog')
+                    // }}
+                  >
+                    <Category
+                      imageUri={require('../../assets/appicon.png')}
+                      name="80 Short Hadith For Men"
+                    />
+                  </Pressable>
+                </ScrollView>
+              </View>
                 </View>
               )}
               <TouchableOpacity

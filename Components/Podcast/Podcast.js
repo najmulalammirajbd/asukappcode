@@ -9,7 +9,7 @@ export default function Song() {
   const [data, setData] = useState([]);
   console.log(data);
   useEffect(() => {
-    fetch("https://iaudio.vercel.app/allimusics")
+    fetch("https://asukserver.vercel.app/podcast")
       .then((response) => response.json())
       .then((json) => setData(json))
       .catch((error) => console.error(error))
